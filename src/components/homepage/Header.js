@@ -11,7 +11,7 @@ const Header = () => {
                             <Col className='col-md-11 col-lg-10 block'>
                                 <h1 className='text-h1'>Master your <strong>money</strong> to get out and stay out of debt</h1>
                                 <p className='sub-text mt-4' style={{ color: '#ffffffb8' }}>
-                                    Budget your finances to know where your money is going. BudgetManager is a online money management tool that just do that
+                                    Budget your finances to know where your money is going. BudgetBuddy is a online money management tool that just do that
                                     </p>
                             </Col>
                         </Row>

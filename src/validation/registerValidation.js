@@ -33,11 +33,3 @@ export const initialValues = {
     password2: ''
 }
 
-/* export const initialValues = {
-    firstName: 'Admin',
-    lastName: 'Admin',
-    email: 'gadhiyaravi879@gmail.com',
-    password: 'aaA1##a',
-    password2: 'aaA1##'
-}
- */
