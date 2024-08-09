@@ -37,17 +37,14 @@ const AuthState = props => {
     let isSuccess = false;
     try {
       await axios.post(baseURL + '/api/register', formData);
-
       showSuccessMsg(MSG_REGISTER_SUCCESS);
       isSuccess = true;
-
     } catch (err) {
       showErrorMsg(REGISTER_FAIL, err);
       dispatch({
         type: REGISTER_FAIL
       });
     }
-
     hideLoading();
     return isSuccess;
   };
